@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_event_app/rsvp.dart';
 import 'package:page_transition/page_transition.dart';
 import './map.dart';
 import './schedule.dart';
@@ -70,9 +71,7 @@ class HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: RSVP',
-    ),
+    InputForm(),
     Navigation(),
     Timetable(),
     Text('Index 4: Photo'),

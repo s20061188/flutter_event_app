@@ -16,6 +16,6 @@ class RsvpForm {
         'name': name,
         'mobileNo': mobileNo,
         'email': email,
-        'feedback': response
+        'response': response
       };
 }
